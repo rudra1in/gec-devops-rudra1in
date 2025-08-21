@@ -5,7 +5,7 @@ name: Spring Boot CI with Maven
 # Controls when the workflow will run
 on:
   push:
-    branches: [ "main", "feature/**" ] # Triggers on pushes to main and any branch under feature/
+    branches: [ "main", "development","feature/**" ] # Triggers on pushes to main and any branch under feature/
   pull_request:
     branches: [ "main","development" ] # Triggers on pull requests targeting the main branch
 
