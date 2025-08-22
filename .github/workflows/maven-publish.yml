@@ -28,8 +28,10 @@ jobs:
           java-version: '17'
           distribution: 'temurin' # Eclipse Temurin is a popular, open-source distribution of Java
           cache: 'maven' # Caches Maven dependencies to speed up subsequent builds
-
       # Step 3: Build with Maven Wrapper
+      - name: Grant execute permission to mvnw
+        run: chmod +x ./demo-git-boot/demo/mvnw
+      # Step 4: Build with Maven Wrapper
       # This command cleans the project, runs tests, and packages the application into a JAR file.
       # Using the Maven Wrapper (mvnw) is a best practice as it ensures a consistent Maven version.
       - name: Build with Maven
