@@ -33,7 +33,7 @@ jobs:
       # This command cleans the project, runs tests, and packages the application into a JAR file.
       # Using the Maven Wrapper (mvnw) is a best practice as it ensures a consistent Maven version.
       - name: Build with Maven
-        run: ./gec-devops-rudra1in/demo-git-boot/demo/mvnw -B package --file pom.xml
+        run: ./demo-git-boot/demo/mvnw -B package --file pom.xml
 
       # Optional Step 4: You can add steps here to upload the build artifact
       # For example, to save the generated JAR file from the build.
