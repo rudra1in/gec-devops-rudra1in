@@ -30,7 +30,8 @@ jobs:
           cache: 'maven' # Caches Maven dependencies to speed up subsequent builds
       # Step 3: Build with Maven Wrapper
       - name: Grant execute permission to mvnw
-        run: chmod +x ./demo-git-boot/demo/mvnw
+        run: chmod +x ./mvnw
+        working-directory: ./demo-git-boot/demo
       # Step 4: Build with Maven Wrapper
       # This command cleans the project, runs tests, and packages the application into a JAR file.
       # Using the Maven Wrapper (mvnw) is a best practice as it ensures a consistent Maven version.
