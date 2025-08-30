@@ -236,12 +236,3 @@ docker system prune
 * Push your image to Docker Hub
 
 ---
-
-*Thanks for learning Docker 101!*
-
-```
-
----
-
-Let me know if you want a version of this tailored for Python, Java, or Go instead of Node.js — or if you'd like me to turn this into slides or a printable handout.
-```
