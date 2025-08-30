@@ -44,6 +44,6 @@ jobs:
       # For example, to save the generated JAR file from the build.
       - name: Upload artifact
         uses: actions/upload-artifact@v4
-      #   with:
-      #     name: spring-boot-app
-      #     path: target/*.jar
+        with:
+            name: spring-boot-app
+            path: target/*.jar
