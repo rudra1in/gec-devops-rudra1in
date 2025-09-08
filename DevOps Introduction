@@ -1,0 +1,5 @@
+DevOps is a set of practices and a culture, not a tool or a programming language, designed to make software development smarter. It brings together software development and operations, benefiting not just developers but also operations and QA engineers.
+
+The primary goal of the DevOps movement is to significantly reduce the time between the initial idea for a product and its final release to the end-user. This is achieved by shifting from long, drawn-out release cycles to smaller, more frequent releases. A key principle is breaking down the silos that traditionally exist between development, operations, and QA teams.
+
+From a practical perspective, the DevOps team takes on the responsibility for development, testing, and deployment. To make this process as efficient as possible, leveraging **automation** is essential. DevOps is also widely adopted together with the **Agile methodology** to enable continuous delivery of applications.
